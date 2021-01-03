@@ -1,0 +1,54 @@
+el segmento retilinio tiene direccion y esta se define en el orden en el que ponemos los puntos de un segmento 
+Por ejemplo
+A-B 
+
+lo cual es igual a un segmento A-------→-------B
+
+
+//1 | A-B = -(B-A) ///////////////////////////////////////////////////////////////////////////////////////////
+
+Si tenemos 3 puntos 
+
+A------C----B    C-----A-------B    A------B------C
+				a)							b)									c)
+
+B---C-------A    C-----B-------A    B----A--------C
+				d)							e)									f)
+
+A-C + C-B = A-B
+C-A + A-B = C-B
+A-B + B-C = A-C 
+B-C + C-A = B-A
+C-B + B-A = C-A
+B-A + A-C = B-C
+
+y eso se explica facilmente de la siguiente manera:
+
+A------C----B
+
+A-C + C-B = A------C + C----B = A-----------B
+
+Lo mismo, solo partimos por el punto C
+
+si utilizamos el teorema 1 en la relacion a quedaria:
+
+A-C -(B-C) = A-C
+
+Dado que:
+
+A---→--C - (C--←-B) = A------→----B 
+
+Porque la direccion de B-C es una direccion negativa por lo que al multiplicarla por -1 y sumarla o lo mismo que al restarla se vuelbe 
+una direccion pocitiva 
+
+Ejercicio:
+
+encuntrar que suma o resta de segmentos es igual a -(B-C)
+
+A-C = -(C-A)
+-(B-C) = C-B
+
+A-C + C-B = A-B
+A-C 
+
+

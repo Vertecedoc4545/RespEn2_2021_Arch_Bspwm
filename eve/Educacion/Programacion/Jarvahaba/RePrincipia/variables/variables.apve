@@ -1,0 +1,71 @@
+Existen 2 grupos grandes de variables en variables 
+Las de tipos primitivos y las de tipos referenciados o object
+
+								    Tipos Primitivos
+  										      ↓
+				Tipos enteros							Tipos flotantes
+				     ↓                           ↓
+			   ←                                   →
+			
+			 ↓                                       ↓
+
+  Byte    short	                         Float   Double
+(8bits) (16bits)                       (32bits) (64bits)
+
+  Char     Int     
+(16bits) (32bits)
+  
+	Long    Boolean
+(64bits)  (1bit)
+
+de esa forma se haria.
+Para inicializar las variables:
+
+Tipo Nombre = Valor;
+por ejemplo:
+short Klol = 0;
+
+existe un tipo especial el cual son las cadenas de texto o las cadenas de char 
+o el tipo String el cual es un tipo especial de objeto de java el cual no nececita
+tratamiento especial o especifico al momento de inicializarlo.
+se inicializan de la forma anterior
+
+
+                 Tipos Referenciados
+						
+						↓						   ↓           ↓
+
+			  	Clases			Interfaces		Arreglos
+
+Caracteres de escape al utilizar strings 
+
+\t Tabulador
+\b Retroceso
+\n Nueva linea
+\r Retorno de carro
+\f Nueva pagina (impresoras)
+\' Comilla simple
+\" Comilla doble
+\\ Barra invertida
+
+Las variables en java tienen 3 caracteristicas en su declaracion
+
+int variable = 20;
+
+int → tipo
+
+variable → nombre
+
+= 20;
+  ↓
+
+literal
+
+el tipo de a literial esta descrito por el tipo de la varieble
+
+tambien se pueden hacer variables sin tipo definido con la palabra recervada var
+
+var Iotass = "20";
+
+esto es igual a String Iotass = "20";
+

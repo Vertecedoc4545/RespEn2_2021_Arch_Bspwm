@@ -1,0 +1,26 @@
+La libreria Scanner de la clase escanner se puede utilizar paa introducir datos
+a variables de todo tipo.
+
+Primero se importa
+
+import java.util.Scanner
+
+Lugeo la clase 
+
+class Clases {
+
+				public static void main(String args []){
+
+				haora paraintroducir datos metemos un objeto ipo scanner
+
+
+								Scanner input = new Scaner(System.in);
+
+								Para meter datos metemos una variiable string que utilice un metodo para meter datos
+
+								Sting Kłoł = input.nextln;
+
+								y listo!!
+				}
+
+}

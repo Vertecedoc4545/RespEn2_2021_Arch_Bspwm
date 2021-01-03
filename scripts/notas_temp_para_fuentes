@@ -1,0 +1,23 @@
+if [(ls $direccion/$nombre.tar | grep .tar) == $direccion/$nombre.tar];
+#si es tar
+cd $direccion
+mkdir $nombre
+#creamos el la carpeta para descomprimir el .tar
+mv $direccion/$nombre.tar $direccion/$nombre
+cd $nombre
+#descomprimimos el .tar con la fuente
+tar -xf $nombre.tar
+#creamos la carpeta de la fuente en /usr/share/fonts
+mkdir /usr/share/fonts/$nombre
+#si es un ttf, solo para que estemos en lo correcto y no salgan errores es este if y los demas
+if [(ls $direccion/$nombre/$nombre.ttf | grep .ttf) == $direccion/$nombre/$nombre.ttf];
+chmod +w $nombre.ttf
+mv $nombre.ttf /usr/share/fonts/$nombre
+#ya esta instalada la fuente ttf
+cd ..
+#removemos la carpeta que creamos y los archivos del proceso
+rm -rf $direccion/$nombre
+#en caso de no ser ttf
+else
+#vamos con los otf
+if [(ls $direccion/$nombre/$nombre.otf | grep .ttf) == $direccion/$nombre/$nombre.otf];

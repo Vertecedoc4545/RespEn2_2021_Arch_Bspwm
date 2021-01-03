@@ -1,0 +1,363 @@
+23:12:57.207: Command Line Arguments: obs
+23:12:57.219: CPU Name: Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
+23:12:57.219: CPU Speed: 2700.002MHz
+23:12:57.220: Physical Cores: 2, Logical Cores: 4
+23:12:57.220: Physical Memory: 7823MB Total, 4578MB Free
+23:12:57.220: Kernel Version: Linux 5.9.12-zen1-1-zen
+23:12:57.220: Distribution: "Arch Linux" Unknown
+23:12:57.220: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.10
+23:12:57.221: Portable mode: false
+23:12:57.275: OBS 26.0.2-3 (linux)
+23:12:57.275: ---------------------------------
+23:12:57.275: ---------------------------------
+23:12:57.275: audio settings reset:
+23:12:57.275: 	samples per sec: 48000
+23:12:57.275: 	speakers:        2
+23:12:57.277: ---------------------------------
+23:12:57.277: Initializing OpenGL...
+23:12:57.379: Loading up OpenGL on adapter Intel Mesa Intel(R) HD Graphics 520 (SKL GT2)
+23:12:57.379: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 20.3.0, shading language 4.60
+23:12:57.396: ---------------------------------
+23:12:57.396: video settings reset:
+23:12:57.396: 	base resolution:   1366x768
+23:12:57.396: 	output resolution: 1364x768
+23:12:57.396: 	downscale filter:  Lanczos
+23:12:57.396: 	fps:               30/1
+23:12:57.396: 	format:            NV12
+23:12:57.396: 	YUV mode:          709/Partial
+23:12:57.396: NV12 texture support not available
+23:12:57.401: Audio monitoring device:
+23:12:57.401: 	name: Por defecto
+23:12:57.401: 	id: default
+23:12:57.401: ---------------------------------
+23:12:57.402: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+23:12:57.528: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+23:12:57.528: No blackmagic support
+23:12:57.538: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+23:12:57.538: 
+23:12:57.538: FFMPEG VAAPI supported
+23:12:57.571: VLC found, VLC video source enabled
+23:12:57.571: ---------------------------------
+23:12:57.571:   Loaded Modules:
+23:12:57.571:     vlc-video.so
+23:12:57.571:     text-freetype2.so
+23:12:57.572:     rtmp-services.so
+23:12:57.572:     obs-x264.so
+23:12:57.572:     obs-transitions.so
+23:12:57.572:     obs-outputs.so
+23:12:57.572:     obs-libfdk.so
+23:12:57.572:     obs-filters.so
+23:12:57.572:     obs-ffmpeg.so
+23:12:57.572:     linux-v4l2.so
+23:12:57.572:     linux-pulseaudio.so
+23:12:57.572:     linux-jack.so
+23:12:57.572:     linux-decklink.so
+23:12:57.572:     linux-capture.so
+23:12:57.572:     linux-alsa.so
+23:12:57.572:     image-source.so
+23:12:57.572:     frontend-tools.so
+23:12:57.572:     decklink-ouput-ui.so
+23:12:57.572: ---------------------------------
+23:12:57.572: ==== Startup complete ===============================================
+23:12:57.575: All scene data cleared
+23:12:57.575: ------------------------------------------------
+23:12:57.582: pulse-input: Server name: 'pulseaudio 14.0'
+23:12:57.582: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+23:12:57.583: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+23:12:57.585: pulse-am: Prevented feedback-loop in 'default'
+23:12:57.585: [Loaded global audio device]: 'Desktop Audio'
+23:12:57.585:     - monitoring: monitor and output
+23:12:57.585: pulse-input: Server name: 'pulseaudio 14.0'
+23:12:57.586: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+23:12:57.586: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+23:12:57.587: pulse-am: Server name: 'pulseaudio 14.0'
+23:12:57.587: pulse-am: Audio format: s16le, 44100 Hz, 2 channels
+23:12:57.588: pulse-am: Started Monitoring in 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+23:12:57.588: [Loaded global audio device]: 'Mic/Aux'
+23:12:57.588:     - monitoring: monitor and output
+23:12:57.588: xshm-input: Geometry 1366x768 @ 0,0
+23:12:57.592: pulse-input: Server name: 'pulseaudio 14.0'
+23:12:57.592: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+23:12:57.592: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+23:12:57.593: pulse-am: Server name: 'pulseaudio 14.0'
+23:12:57.593: pulse-am: Audio format: s16le, 44100 Hz, 2 channels
+23:12:57.593: pulse-am: Started Monitoring in 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+23:12:57.594: Switched to scene 'Scene'
+23:12:57.594: ------------------------------------------------
+23:12:57.594: Loaded scenes:
+23:12:57.594: - scene 'Scene':
+23:12:57.594:     - source: 'Audio Input Capture (PulseAudio)' (pulse_input_capture)
+23:12:57.594:         - monitoring: monitor and output
+23:12:57.594:     - source: 'Screen Capture (XSHM)' (xshm_input)
+23:12:57.594: ------------------------------------------------
+23:12:58.122: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+23:12:58.122: 
+23:13:14.826: User Removed source 'Audio Input Capture (PulseAudio)' (pulse_input_capture) from scene 'Scene'
+23:13:14.840: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+23:13:14.840: pulse-input: Got 1736 packets with 760264 frames
+23:13:14.841: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+23:13:14.841: pulse-am: Got 1683 packets with 737361 frames
+23:13:51.211: alsa-input: PCM 'default' rate set to 44100
+23:13:51.212: alsa-input: PCM 'default' channels set to 2
+23:13:51.224: User added source 'Dispositivo de captura de audio (ALSA)' (alsa_input_capture) to scene 'Scene'
+23:13:54.019: alsa-input: PCM 'default' rate set to 48000
+23:13:54.019: alsa-input: PCM 'default' channels set to 2
+23:15:25.836: Settings changed (hotkeys)
+23:15:25.836: ------------------------------------------------
+23:15:29.989: Starting recording due to hotkey
+23:15:30.001: ---------------------------------
+23:15:30.001: [x264 encoder: 'recording_h264'] preset: medium
+23:15:30.001: [x264 encoder: 'recording_h264'] settings:
+23:15:30.001: 	rate_control: CBR
+23:15:30.001: 	bitrate:      2500
+23:15:30.001: 	buffer size:  2500
+23:15:30.001: 	crf:          0
+23:15:30.001: 	fps_num:      30
+23:15:30.001: 	fps_den:      1
+23:15:30.001: 	width:        1364
+23:15:30.001: 	height:       768
+23:15:30.001: 	keyint:       250
+23:15:30.001: 
+23:15:30.032: libfdk_aac encoder created
+23:15:30.032: libfdk_aac bitrate: 160, channels: 2
+23:15:30.034: ==== Recording Start ===============================================
+23:15:30.035: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/vertecedoc/Videos/2020-12-07 23-15-30.mp4'...
+23:15:36.584: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/vertecedoc/Videos/2020-12-07 23-15-30.mp4' stopped
+23:15:36.584: Output 'adv_file_output': stopping
+23:15:36.584: Output 'adv_file_output': Total frames output: 146
+23:15:36.584: Output 'adv_file_output': Total drawn frames: 196
+23:15:36.584: ==== Recording Stop ================================================
+23:15:36.614: libfdk_aac encoder destroyed
+23:16:53.752: Settings changed (outputs)
+23:16:53.752: ------------------------------------------------
+23:19:06.717: ---------------------------------
+23:19:06.718: [x264 encoder: 'recording_h264'] preset: medium
+23:19:06.718: [x264 encoder: 'recording_h264'] settings:
+23:19:06.718: 	rate_control: CBR
+23:19:06.718: 	bitrate:      2500
+23:19:06.718: 	buffer size:  2500
+23:19:06.718: 	crf:          0
+23:19:06.718: 	fps_num:      30
+23:19:06.718: 	fps_den:      1
+23:19:06.718: 	width:        1364
+23:19:06.718: 	height:       768
+23:19:06.718: 	keyint:       250
+23:19:06.718: 
+23:19:06.749: libfdk_aac encoder created
+23:19:06.749: libfdk_aac bitrate: 160, channels: 2
+23:19:06.751: ==== Recording Start ===============================================
+23:19:06.751: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/vertecedoc/SO/2020-12-07 23-19-06.mp4'...
+23:19:11.917: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/vertecedoc/SO/2020-12-07 23-19-06.mp4' stopped
+23:19:11.917: Output 'adv_file_output': stopping
+23:19:11.917: Output 'adv_file_output': Total frames output: 104
+23:19:11.917: Output 'adv_file_output': Total drawn frames: 155
+23:19:11.917: ==== Recording Stop ================================================
+23:19:11.977: libfdk_aac encoder destroyed
+23:20:06.217: ---------------------------------
+23:20:06.217: [x264 encoder: 'recording_h264'] preset: medium
+23:20:06.217: [x264 encoder: 'recording_h264'] settings:
+23:20:06.217: 	rate_control: CBR
+23:20:06.217: 	bitrate:      2500
+23:20:06.217: 	buffer size:  2500
+23:20:06.217: 	crf:          0
+23:20:06.217: 	fps_num:      30
+23:20:06.217: 	fps_den:      1
+23:20:06.217: 	width:        1364
+23:20:06.217: 	height:       768
+23:20:06.217: 	keyint:       250
+23:20:06.217: 
+23:20:06.235: libfdk_aac encoder created
+23:20:06.235: libfdk_aac bitrate: 160, channels: 2
+23:20:06.237: ==== Recording Start ===============================================
+23:20:06.238: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/vertecedoc/SO/2020-12-07 23-20-06.mp4'...
+23:21:36.438: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/vertecedoc/SO/2020-12-07 23-20-06.mp4' stopped
+23:21:36.438: Output 'adv_file_output': stopping
+23:21:36.439: Output 'adv_file_output': Total frames output: 2653
+23:21:36.439: Output 'adv_file_output': Total drawn frames: 2706
+23:21:36.467: ==== Recording Stop ================================================
+23:21:36.496: libfdk_aac encoder destroyed
+23:21:41.272: xshm-input: Geometry 1600x900 @ 1366,0
+23:25:14.504: ---------------------------------
+23:25:14.504: video settings reset:
+23:25:14.504: 	base resolution:   1600x900
+23:25:14.504: 	output resolution: 1600x900
+23:25:14.504: 	downscale filter:  Lanczos
+23:25:14.504: 	fps:               60/1
+23:25:14.504: 	format:            NV12
+23:25:14.504: 	YUV mode:          709/Partial
+23:25:14.505: NV12 texture support not available
+23:25:14.526: Settings changed (outputs, video)
+23:25:14.526: ------------------------------------------------
+23:25:33.432: Settings changed (outputs)
+23:25:33.432: ------------------------------------------------
+23:25:37.243: ---------------------------------
+23:25:37.243: [x264 encoder: 'recording_h264'] preset: slow
+23:25:37.243: [x264 encoder: 'recording_h264'] settings:
+23:25:37.243: 	rate_control: CBR
+23:25:37.243: 	bitrate:      2500
+23:25:37.243: 	buffer size:  2500
+23:25:37.243: 	crf:          0
+23:25:37.243: 	fps_num:      60
+23:25:37.243: 	fps_den:      1
+23:25:37.243: 	width:        1600
+23:25:37.243: 	height:       900
+23:25:37.243: 	keyint:       250
+23:25:37.243: 
+23:25:37.272: libfdk_aac encoder created
+23:25:37.272: libfdk_aac bitrate: 160, channels: 2
+23:25:37.274: ==== Recording Start ===============================================
+23:25:37.274: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/vertecedoc/SO/2020-12-07 23-25-37.mp4'...
+23:30:03.837: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/vertecedoc/SO/2020-12-07 23-25-37.mp4' stopped
+23:30:03.837: Output 'adv_file_output': stopping
+23:30:03.837: Output 'adv_file_output': Total frames output: 7239
+23:30:03.837: Output 'adv_file_output': Total drawn frames: 13828 (15993 attempted)
+23:30:03.837: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 2165 (13.5%)
+23:30:03.838: ==== Recording Stop ================================================
+23:30:04.468: Video stopped, number of skipped frames due to encoding lag: 7225/7308 (98.9%)
+23:30:04.753: libfdk_aac encoder destroyed
+23:32:37.722: xshm-input: Geometry 1366x768 @ 0,0
+23:32:57.733: Starting recording due to hotkey
+23:32:57.747: ---------------------------------
+23:32:57.747: [x264 encoder: 'recording_h264'] preset: slow
+23:32:57.748: [x264 encoder: 'recording_h264'] settings:
+23:32:57.748: 	rate_control: CBR
+23:32:57.748: 	bitrate:      2500
+23:32:57.748: 	buffer size:  2500
+23:32:57.748: 	crf:          0
+23:32:57.748: 	fps_num:      60
+23:32:57.748: 	fps_den:      1
+23:32:57.748: 	width:        1600
+23:32:57.748: 	height:       900
+23:32:57.748: 	keyint:       250
+23:32:57.748: 
+23:32:57.792: libfdk_aac encoder created
+23:32:57.792: libfdk_aac bitrate: 160, channels: 2
+23:32:57.799: ==== Recording Start ===============================================
+23:32:57.799: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/vertecedoc/SO/2020-12-07 23-32-57.mp4'...
+23:33:20.138: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/vertecedoc/SO/2020-12-07 23-32-57.mp4' stopped
+23:33:20.138: Output 'adv_file_output': stopping
+23:33:20.139: Output 'adv_file_output': Total frames output: 323
+23:33:20.139: Output 'adv_file_output': Total drawn frames: 1330 (1339 attempted)
+23:33:20.139: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 9 (0.7%)
+23:33:20.139: ==== Recording Stop ================================================
+23:33:20.663: Video stopped, number of skipped frames due to encoding lag: 319/389 (82.0%)
+23:33:20.789: libfdk_aac encoder destroyed
+23:41:33.312: Starting recording due to hotkey
+23:41:33.317: ---------------------------------
+23:41:33.317: [x264 encoder: 'recording_h264'] preset: slow
+23:41:33.317: [x264 encoder: 'recording_h264'] settings:
+23:41:33.317: 	rate_control: CBR
+23:41:33.317: 	bitrate:      2500
+23:41:33.317: 	buffer size:  2500
+23:41:33.317: 	crf:          0
+23:41:33.317: 	fps_num:      60
+23:41:33.317: 	fps_den:      1
+23:41:33.317: 	width:        1600
+23:41:33.317: 	height:       900
+23:41:33.317: 	keyint:       250
+23:41:33.317: 
+23:41:33.336: libfdk_aac encoder created
+23:41:33.336: libfdk_aac bitrate: 160, channels: 2
+23:41:33.339: ==== Recording Start ===============================================
+23:41:33.339: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/vertecedoc/SO/2020-12-07 23-41-33.mp4'...
+23:43:49.739: Stopping recording due to hotkey
+23:45:20.413: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/vertecedoc/SO/2020-12-07 23-41-33.mp4' stopped
+23:45:20.414: Output 'adv_file_output': stopping
+23:45:20.414: Output 'adv_file_output': Total frames output: 5480
+23:45:20.414: Output 'adv_file_output': Total drawn frames: 13032 (13625 attempted)
+23:45:20.414: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 593 (4.4%)
+23:45:20.415: ==== Recording Stop ================================================
+23:45:20.521: Video stopped, number of skipped frames due to encoding lag: 5465/5544 (98.6%)
+23:45:20.620: libfdk_aac encoder destroyed
+23:45:23.704: ---------------------------------
+23:45:23.704: [x264 encoder: 'recording_h264'] preset: slow
+23:45:23.705: [x264 encoder: 'recording_h264'] settings:
+23:45:23.705: 	rate_control: CBR
+23:45:23.705: 	bitrate:      2500
+23:45:23.705: 	buffer size:  2500
+23:45:23.705: 	crf:          0
+23:45:23.705: 	fps_num:      60
+23:45:23.705: 	fps_den:      1
+23:45:23.705: 	width:        1600
+23:45:23.705: 	height:       900
+23:45:23.705: 	keyint:       250
+23:45:23.705: 
+23:45:23.741: libfdk_aac encoder created
+23:45:23.741: libfdk_aac bitrate: 160, channels: 2
+23:45:23.749: ==== Recording Start ===============================================
+23:45:23.749: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/vertecedoc/SO/2020-12-07 23-45-23.mp4'...
+23:46:35.463: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/vertecedoc/SO/2020-12-07 23-45-23.mp4' stopped
+23:46:35.465: Output 'adv_file_output': stopping
+23:46:35.471: Output 'adv_file_output': Total frames output: 1080
+23:46:35.472: Output 'adv_file_output': Total drawn frames: 4285 (4303 attempted)
+23:46:35.472: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 18 (0.4%)
+23:46:35.473: ==== Recording Stop ================================================
+23:46:37.446: Video stopped, number of skipped frames due to encoding lag: 1105/1179 (93.7%)
+23:46:37.674: libfdk_aac encoder destroyed
+23:46:39.584: ---------------------------------
+23:46:39.584: [x264 encoder: 'recording_h264'] preset: slow
+23:46:39.584: [x264 encoder: 'recording_h264'] settings:
+23:46:39.584: 	rate_control: CBR
+23:46:39.584: 	bitrate:      2500
+23:46:39.584: 	buffer size:  2500
+23:46:39.584: 	crf:          0
+23:46:39.584: 	fps_num:      60
+23:46:39.584: 	fps_den:      1
+23:46:39.584: 	width:        1600
+23:46:39.584: 	height:       900
+23:46:39.584: 	keyint:       250
+23:46:39.584: 
+23:46:39.607: libfdk_aac encoder created
+23:46:39.607: libfdk_aac bitrate: 160, channels: 2
+23:46:39.611: ==== Recording Start ===============================================
+23:46:39.612: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/vertecedoc/SO/2020-12-07 23-46-39.mp4'...
+23:51:00.821: Stopping recording due to hotkey
+23:56:47.622: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/vertecedoc/SO/2020-12-07 23-46-39.mp4' stopped
+23:56:47.623: Output 'adv_file_output': stopping
+23:56:47.623: Output 'adv_file_output': Total frames output: 15673
+23:56:47.624: Output 'adv_file_output': Total drawn frames: 35463 (36480 attempted)
+23:56:47.624: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 1017 (2.8%)
+23:56:47.632: ==== Recording Stop ================================================
+23:56:47.738: Video stopped, number of skipped frames due to encoding lag: 15650/15735 (99.5%)
+23:56:47.854: libfdk_aac encoder destroyed
+00:05:58.205: Settings changed (outputs)
+00:05:58.209: ------------------------------------------------
+00:06:11.557: ---------------------------------
+00:06:11.559: video settings reset:
+00:06:11.559: 	base resolution:   1600x900
+00:06:11.559: 	output resolution: 1600x900
+00:06:11.559: 	downscale filter:  Bicubic
+00:06:11.559: 	fps:               60/1
+00:06:11.559: 	format:            NV12
+00:06:11.559: 	YUV mode:          709/Partial
+00:06:11.560: NV12 texture support not available
+00:06:11.574: Settings changed (video)
+00:06:11.574: ------------------------------------------------
+00:18:54.423: Starting recording due to hotkey
+00:18:54.437: ---------------------------------
+00:18:54.437: [x264 encoder: 'recording_h264'] preset: fast
+00:18:54.437: [x264 encoder: 'recording_h264'] settings:
+00:18:54.437: 	rate_control: CBR
+00:18:54.437: 	bitrate:      2500
+00:18:54.437: 	buffer size:  2500
+00:18:54.437: 	crf:          0
+00:18:54.437: 	fps_num:      60
+00:18:54.437: 	fps_den:      1
+00:18:54.437: 	width:        1600
+00:18:54.437: 	height:       900
+00:18:54.437: 	keyint:       250
+00:18:54.437: 
+00:18:54.480: libfdk_aac encoder created
+00:18:54.480: libfdk_aac bitrate: 160, channels: 2
+00:18:54.483: ==== Recording Start ===============================================
+00:18:54.484: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/vertecedoc/SO/2020-12-08 00-18-54.mp4'...
+00:18:55.965: Stopping recording due to hotkey
+00:18:56.796: Stopping recording due to hotkey
+00:18:56.814: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/vertecedoc/SO/2020-12-08 00-18-54.mp4' stopped
+00:18:56.814: Output 'adv_file_output': stopping
+00:18:56.814: Output 'adv_file_output': Total frames output: 61
+00:18:56.814: Output 'adv_file_output': Total drawn frames: 139 (140 attempted)
+00:18:56.814: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 1 (0.7%)
+00:18:56.818: ==== Recording Stop ================================================
+00:18:56.928: Video stopped, number of skipped frames due to encoding lag: 53/107 (49.5%)
+00:18:56.995: libfdk_aac encoder destroyed

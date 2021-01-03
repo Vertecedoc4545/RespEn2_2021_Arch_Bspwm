@@ -1,0 +1,244 @@
+22:43:49.235: CPU Name: Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
+22:43:49.235: CPU Speed: 800.025MHz
+22:43:49.235: Physical Cores: 2, Logical Cores: 4
+22:43:49.235: Physical Memory: 7823MB Total, 5714MB Free
+22:43:49.235: Kernel Version: Linux 5.9.12-zen1-1-zen
+22:43:49.235: Distribution: "Arch Linux" Unknown
+22:43:49.236: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.10
+22:43:49.239: Portable mode: false
+22:43:49.618: OBS 26.0.2-3 (linux)
+22:43:49.618: ---------------------------------
+22:43:49.620: ---------------------------------
+22:43:49.620: audio settings reset:
+22:43:49.620: 	samples per sec: 48000
+22:43:49.620: 	speakers:        2
+22:43:49.645: ---------------------------------
+22:43:49.645: Initializing OpenGL...
+22:43:49.770: Loading up OpenGL on adapter Intel Mesa Intel(R) HD Graphics 520 (SKL GT2)
+22:43:49.770: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 20.3.0, shading language 4.60
+22:43:49.943: ---------------------------------
+22:43:49.943: video settings reset:
+22:43:49.943: 	base resolution:   1366x768
+22:43:49.943: 	output resolution: 1092x614
+22:43:49.943: 	downscale filter:  Bicubic
+22:43:49.943: 	fps:               30/1
+22:43:49.943: 	format:            NV12
+22:43:49.943: 	YUV mode:          709/Partial
+22:43:49.943: NV12 texture support not available
+22:43:49.948: Audio monitoring device:
+22:43:49.948: 	name: Default
+22:43:49.948: 	id: default
+22:43:49.948: ---------------------------------
+22:43:49.966: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+22:43:51.004: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+22:43:51.004: No blackmagic support
+22:43:51.476: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+22:43:51.476: 
+22:43:51.476: FFMPEG VAAPI supported
+22:43:51.645: VLC found, VLC video source enabled
+22:43:51.645: ---------------------------------
+22:43:51.645:   Loaded Modules:
+22:43:51.646:     vlc-video.so
+22:43:51.646:     text-freetype2.so
+22:43:51.646:     rtmp-services.so
+22:43:51.646:     obs-x264.so
+22:43:51.646:     obs-transitions.so
+22:43:51.646:     obs-outputs.so
+22:43:51.646:     obs-libfdk.so
+22:43:51.646:     obs-filters.so
+22:43:51.646:     obs-ffmpeg.so
+22:43:51.646:     linux-v4l2.so
+22:43:51.646:     linux-pulseaudio.so
+22:43:51.646:     linux-jack.so
+22:43:51.646:     linux-decklink.so
+22:43:51.646:     linux-capture.so
+22:43:51.646:     linux-alsa.so
+22:43:51.646:     image-source.so
+22:43:51.646:     frontend-tools.so
+22:43:51.646:     decklink-ouput-ui.so
+22:43:51.646: ---------------------------------
+22:43:51.654: ==== Startup complete ===============================================
+22:43:51.686: No scene file found, creating default scene
+22:43:51.686: All scene data cleared
+22:43:51.686: ------------------------------------------------
+22:43:51.707: pulse-input: Server name: 'pulseaudio 14.0'
+22:43:51.708: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+22:43:51.708: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+22:43:51.712: pulse-input: Server name: 'pulseaudio 14.0'
+22:43:51.713: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+22:43:51.713: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+22:43:51.713: Switched to scene 'Scene'
+22:43:51.714: Failed to glob scene collections
+22:43:52.248: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+22:43:52.248: 
+22:43:57.051: [rtmp-services plugin] Successfully updated file 'services.json' (version 150)
+22:43:57.051: [rtmp-services plugin] Successfully updated package (version 150)
+22:49:19.495: pulse-input: Server name: 'pulseaudio 14.0'
+22:49:19.496: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+22:49:19.496: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+22:49:19.543: User added source 'Audio Input Capture (PulseAudio)' (pulse_input_capture) to scene 'Scene'
+22:49:34.148: alsa-input: PCM 'default' rate set to 44100
+22:49:34.148: alsa-input: PCM 'default' channels set to 2
+22:49:34.163: User added source 'Audio Capture Device (ALSA)' (alsa_input_capture) to scene 'Scene'
+22:49:37.917: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:49:38.919: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:49:40.188: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:49:41.190: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:49:43.191: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:49:46.192: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:49:50.193: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:49:50.439: ---------------------------------
+22:49:50.439: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+22:49:50.453: [x264 encoder: 'simple_h264_stream'] settings:
+22:49:50.453: 	rate_control: CBR
+22:49:50.453: 	bitrate:      2500
+22:49:50.453: 	buffer size:  2500
+22:49:50.453: 	crf:          0
+22:49:50.453: 	fps_num:      30
+22:49:50.453: 	fps_den:      1
+22:49:50.453: 	width:        1092
+22:49:50.453: 	height:       614
+22:49:50.453: 	keyint:       250
+22:49:50.453: 
+22:49:50.501: libfdk_aac encoder created
+22:49:50.501: libfdk_aac bitrate: 160, channels: 2
+22:49:50.504: ==== Recording Start ===============================================
+22:49:50.504: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/vertecedoc/2020-12-07 22-49-50.mkv'...
+22:49:55.195: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:49:57.670: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/vertecedoc/2020-12-07 22-49-50.mkv' stopped
+22:49:57.670: Output 'simple_file_output': stopping
+22:49:57.670: Output 'simple_file_output': Total frames output: 191
+22:49:57.670: Output 'simple_file_output': Total drawn frames: 212 (215 attempted)
+22:49:57.670: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 3 (1.4%)
+22:49:57.671: ==== Recording Stop ================================================
+22:49:57.737: libfdk_aac encoder destroyed
+22:50:00.195: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:50:05.196: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:50:10.197: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:50:15.198: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:50:20.200: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:50:25.204: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:50:30.206: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:50:35.208: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:50:40.209: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:50:45.210: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:50:50.212: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:50:55.213: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:51:00.214: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:51:05.216: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:51:10.217: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:51:15.219: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:51:20.220: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:51:25.222: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:51:30.223: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:51:35.224: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:51:40.225: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:51:45.227: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:51:50.228: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:51:55.229: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:52:00.231: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:52:05.233: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:52:10.234: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:52:15.236: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:52:20.238: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:52:25.240: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:52:30.242: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:59:09.013: Last log entry repeated for 79 more lines
+22:59:09.013: pulse-am: Server name: 'pulseaudio 14.0'
+22:59:09.015: pulse-am: Audio format: s16le, 44100 Hz, 2 channels
+22:59:09.018: pulse-am: Started Monitoring in 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+22:59:09.019: User changed audio monitoring for source 'Audio Input Capture (PulseAudio)' to: monitor and output
+22:59:10.389: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:59:10.523: pulse-am: Server name: 'pulseaudio 14.0'
+22:59:10.524: pulse-am: Audio format: s16le, 44100 Hz, 2 channels
+22:59:10.525: pulse-am: Started Monitoring in 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+22:59:10.525: User changed audio monitoring for source 'Audio Capture Device (ALSA)' to: monitor and output
+22:59:11.643: pulse-am: Prevented feedback-loop in 'default'
+22:59:11.644: User changed audio monitoring for source 'Desktop Audio' to: monitor and output
+22:59:12.998: pulse-am: Server name: 'pulseaudio 14.0'
+22:59:12.999: pulse-am: Audio format: s16le, 44100 Hz, 2 channels
+22:59:13.000: pulse-am: Started Monitoring in 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+22:59:13.002: User changed audio monitoring for source 'Mic/Aux' to: monitor and output
+22:59:15.390: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:59:20.392: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:59:25.394: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:59:30.396: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:59:35.398: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:59:40.400: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:59:45.403: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:59:50.404: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+22:59:55.405: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:00:00.406: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:00:05.408: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:00:10.410: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:00:15.413: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:00:20.415: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:00:25.417: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:00:30.419: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:00:35.421: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:00:40.423: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:00:45.424: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:00:50.425: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:00:55.427: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:01:00.428: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:01:05.431: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:01:10.432: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:01:15.433: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:01:20.435: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:01:25.437: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:01:30.439: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:01:35.441: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:01:40.443: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:01:41.483: ---------------------------------
+23:01:41.483: video settings reset:
+23:01:41.483: 	base resolution:   1366x768
+23:01:41.483: 	output resolution: 1364x768
+23:01:41.483: 	downscale filter:  Lanczos
+23:01:41.483: 	fps:               30/1
+23:01:41.483: 	format:            NV12
+23:01:41.483: 	YUV mode:          709/Partial
+23:01:41.483: NV12 texture support not available
+23:01:41.498: Settings changed (outputs, video)
+23:01:41.498: ------------------------------------------------
+23:01:45.444: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:01:50.446: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:01:55.449: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:02:00.450: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:02:04.714: xshm-input: Geometry 1366x768 @ 0,0
+23:02:04.737: User added source 'Screen Capture (XSHM)' (xshm_input) to scene 'Scene'
+23:02:05.454: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:02:10.455: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:02:15.456: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:02:20.459: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:02:25.460: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:02:30.462: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:02:35.463: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:02:40.465: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:02:45.467: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:02:50.468: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:02:55.473: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:03:00.476: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:03:05.480: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:03:10.481: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:03:15.482: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:03:20.483: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:03:25.484: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:03:30.485: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:03:35.486: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:03:40.488: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:03:45.489: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:03:50.491: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:03:55.493: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:04:00.496: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:04:05.498: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:04:10.500: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:04:15.503: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:04:20.505: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:04:25.508: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:04:30.511: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:04:35.515: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
+23:09:41.004: Last log entry repeated for 61 more lines
+23:09:41.004: User Removed source 'Audio Capture Device (ALSA)' (alsa_input_capture) from scene 'Scene'
+23:09:45.624: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+23:09:45.624: pulse-am: Got 0 packets with 0 frames
+23:09:45.625: alsa-input: Failed to open 'front:CARD=PCH,DEV=0': Device or resource busy
